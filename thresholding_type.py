@@ -16,3 +16,4 @@ cv2.imshow("THRESH_TOZERO",th4)
 cv2.imshow("THRESH_TOZERO_INV",th5)
 
 cv2.waitKey(0)
+cv2.destroyAllWindows()
