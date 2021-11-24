@@ -1,6 +1,7 @@
 import cv2 
 
-cap = cv2.VideoCapture("image/Walking.mp4")
+#cap = cv2.VideoCapture("image/Walking.mp4")
+cap = cv2.VideoCapture(0)
 
 check, frame1 = cap.read()
 check, frame2 = cap.read()
